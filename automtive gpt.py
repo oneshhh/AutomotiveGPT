@@ -26,7 +26,7 @@ class ChatBotGUI:
         )
         self.answer_text.pack(pady=10)
 
-        self.client = OpenAI(api_key="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")
+        self.client = OpenAI(api_key="")
 
     def ask_question(self):
         user_input = self.text_area.get("1.0", tk.END).strip()
